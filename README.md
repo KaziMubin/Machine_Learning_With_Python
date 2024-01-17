@@ -14,10 +14,10 @@ This is a project of predicting drugs based on patients health conditions. I am 
 
 ### Project Goals
 
-- Create and run Django app **DONE**
-- Create Git repo for version controlling **DONE**
-- Add app to do Exploratory Data Analysis **DONE**
-- Add app to create ML model **DONE**
+- Create and run Django app.  **DONE** :heavy_check_mark:
+- Create Git repo for version controlling.  **DONE** :heavy_check_mark:
+- Add app to do Exploratory Data Analysis.  **DONE** :heavy_check_mark:
+- Add app to create ML model.  **DONE** :heavy_check_mark:
 - Create app to get evaluations and metrics
 - Create RESTful API to access the predictions
 - Create container Image to deploy it.
