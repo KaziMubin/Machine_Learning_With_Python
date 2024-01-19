@@ -37,7 +37,8 @@ class DataforPrediction(APIView):
         inputdata = np.array(inputdata)
         inputdata = inputdata.reshape(1, -1)
 
-        model_file_path = "DrugPredictionProject/Decision_tree.joblib"
+        # model_file_path = "DrugPredictionProject/Decision_tree.joblib" # for local run
+        model_file_path = "Decision_tree.joblib"  # for container run
         model = joblib.load(model_file_path)
         prediction = model.predict(inputdata)
 
@@ -57,11 +58,11 @@ class DataforPrediction(APIView):
 #     "Name": "Mubin"
 # }
 #47	M	LOW	HIGH	13.093
-# {
-#     "Name": "Mubin",
-#     "Age": 47,
-#     "Sex": 1,
-#     "BP": 2,
-#     "Cholesterol": 0,
-#     "Na_to_K": 13.093
-# }
+{
+    "Name": "Mubin",
+    "Age": 47,
+    "Sex": 1,
+    "BP": 2,
+    "Cholesterol": 0,
+    "Na_to_K": 13.093
+}
