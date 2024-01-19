@@ -20,7 +20,7 @@ This is a project of predicting drugs based on patients health conditions. I am 
 - Add app to create ML model.  **DONE** :heavy_check_mark:
 - Create app to get evaluations and metrics **DONE** :heavy_check_mark:
 - Create RESTful API to access the predictions **DONE** :heavy_check_mark:
-- Create container Image to deploy it.
+- Create container Image to deploy it.  **DONE** :heavy_check_mark:
 - Create CI pipeline
 - Create CD pipeline
 - Deploy on AZURE
